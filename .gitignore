@@ -1,0 +1,4 @@
+/node_modules
+firebase.js
+package-lock.json
+.prettierrc.json
