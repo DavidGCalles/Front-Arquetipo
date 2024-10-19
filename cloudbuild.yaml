@@ -6,7 +6,7 @@ steps:
       - '-c'
       - |
         echo "Downloading config.json from Cloud Storage..."
-        gsutil cp gs://$_CONFIG_BUCKET/firebase.js firebase.js
+        gsutil cp gs://$_CONFIG_BUCKET/firebase.js ./configs/firebase.js
 
   # Docker build step
   - name: gcr.io/cloud-builders/docker

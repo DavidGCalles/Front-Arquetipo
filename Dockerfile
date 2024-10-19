@@ -4,7 +4,8 @@ WORKDIR /src
 
 # Copy the source code and the configuration file
 COPY . /src
-RUN test -f firebase.js && cp firebase.js /src/configs/firebase.js || echo "firebase.js not found, skipping copy"
+
+COPY configs/firebase.js /src/configs/firebase.js
 
 # Install dependencies and build the app
 RUN npm install
