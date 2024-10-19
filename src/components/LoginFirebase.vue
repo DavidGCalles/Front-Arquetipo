@@ -1,4 +1,4 @@
-<!-- src/components/Login.vue -->
+<!-- src/components/LoginFirebase.vue -->
 <template>
     <div>
       <button @click="loginWithGoogle">Login with Google</button>
@@ -7,7 +7,7 @@
   </template>
   
   <script>
-  import { auth, googleProvider } from '../firebase';
+  import { auth, googleProvider } from '../configs/firebase';
   
   export default {
     data() {

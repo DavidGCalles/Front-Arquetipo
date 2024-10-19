@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
-import { auth, googleProvider } from './firebase'; 
+import { auth, googleProvider } from './configs/firebase'; 
 import { signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth';
 import { pingServer, initiateOAuthLogin } from './api'; // Import the pingServer function
 
