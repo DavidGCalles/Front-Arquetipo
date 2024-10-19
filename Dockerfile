@@ -5,8 +5,6 @@ WORKDIR /src
 # Copy the source code and the configuration file
 COPY . /src
 
-COPY configs/firebase.js /src/configs/firebase.js
-
 # Install dependencies and build the app
 RUN npm install
 RUN npm run build
