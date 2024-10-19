@@ -61,6 +61,7 @@ substitutions:
   _TRIGGER_ID: 6d9339b4-b7d2-4382-961f-9cdfcc10ea7b
   _DEPLOY_REGION: europe-southwest1
   _AR_HOSTNAME: europe-southwest1-docker.pkg.dev
+  _CONFIG_BUCKET: archetype-configs
 
 tags:
   - gcp-cloud-build-deploy-cloud-run
