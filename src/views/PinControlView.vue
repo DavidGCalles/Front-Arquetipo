@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <h1>RPI Control INDEX</h1>
+    <h1>RPI Control</h1>
   </main>
 </template>

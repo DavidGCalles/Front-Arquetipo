@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import PinControlView from '../views/PinControlView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +22,11 @@ const router = createRouter({
       path: '/api',
       name: 'api',
       component: () => import('../views/ApiView.vue')
+    },
+    {
+      path: '/pin',
+      name: 'pin',
+      component: PinControlView
     }
   ]
 })

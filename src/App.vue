@@ -65,31 +65,15 @@ onMounted(() => {
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Arquetipo Flask/Vue/SQL" />
+      <HelloWorld msg="Raspberry Pi Control Board" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/api">API</RouterLink>
+        <RouterLink to="/pin">Pin Control</RouterLink>
+        <RouterLink to="/device">Device Control</RouterLink>
       </nav>
 
-      <!-- Google Login/Logout Button -->
-      <div class="auth">
-        <button v-if="!user" @click="loginWithGoogle">Login with Google</button>
-        <div v-else>
-          <p>Welcome, {{ user.displayName }}!</p>
-          <button @click="logout">Logout</button>
-        </div>
-
-        <!-- Ping Server Button -->
-        <button @click="handlePing">Ping Server</button>
-        <p v-if="pingResult">{{ pingResult }}</p> <!-- Display the ping result -->
-
-        <div>
-          <button @click="loginViaOAuth">Login with Google (OAuth)</button>
-        </div>
-
-      </div>
     </div>
   </header>
 
