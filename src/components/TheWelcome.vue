@@ -14,9 +14,14 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Documentation</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <p>Start exploring our backend by reading the <a href="http://localhost:5000/swagger">Swagger documentation</a>. 
+    On the same page, you can interact with our demo API.</p><br>
+
+    <p>For more information, refer to the <a href="www.github.com">README.md</a> in our GitHub repository. 
+    This document provides comprehensive details about the project setup, dependencies, and usage instructions.</p><br>
+
+    <p>Need more details? Visit our <a href="www.jira.atlassian.com">Jira</a> to see the roadmap and development progress. 
+    You can track issues, feature requests, and contribute to the project planning.</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -25,20 +30,16 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Tooling</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
+    <p>Our archetype is built on robust foundations, allowing you to develop from scratch to cloud within the same environment. 
+    You can run our frontend or backend independently, using standalone execution, Docker, Docker Compose, and more.</p><br>
 
-    <br />
+    <p>The backend core primarily uses Flask, which you can run with the appropriate Python interpreter. 
+    We provide a module that converts Raspberry Pi pins and device access into an API blueprint as a demonstration. 
+    OAuth flows are pre-configured, provided you follow the guidelines. Testing is handled using pytest and mock.</p><br>
 
-    More instructions are available in <code>README.md</code>.
+    <p>The frontend boilerplate is the same as the one you are currently viewing. 
+    This is the bare-bones Vite instance we use to jumpstart our projects. 
+    Additionally, we have integrated support for modern JavaScript features and CSS preprocessors to streamline your development workflow.</p><br>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -47,42 +48,13 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Ecosystem</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
-  </WelcomeItem>
+    <p>Our ecosystem is designed to be flexible and scalable, accommodating a wide range of project requirements. 
+    We leverage a microservices architecture to ensure that each component can be developed, deployed, and scaled independently.</p><br>
 
-  <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
-    <template #heading>Community</template>
+    <p>We have a rich set of integrations with popular tools and services, including continuous integration and continuous deployment (CI/CD) pipelines, 
+    monitoring and logging solutions, and cloud providers. This ensures that you can build, test, and deploy your applications with ease.</p><br>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    <p>Our community is active and supportive, with numerous resources available to help you get started and succeed. 
+    Join our forums, attend our webinars, and participate in our hackathons to connect with other developers and share your experiences.</p><br>
   </WelcomeItem>
 </template>
